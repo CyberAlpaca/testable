@@ -133,7 +133,7 @@ bool TestRunner::run(QString path, const QStringList &arguments)
 {
     QStringList args(arguments);
     QString executable = args.takeAt(0);
-    QStringList testcases = arguments.filter(QRegExp("::"));
+    QStringList testcases = arguments.filter(QRegularExpression("::"));
 
     QStringList nonOptionArgs; // Filter all "-" parameter
     foreach (QString arg, args) {

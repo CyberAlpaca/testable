@@ -1,7 +1,7 @@
 #include <QMap>
 #include <QQuickItem>
-#include "objectutils.h"
-#include "testablefunctions.h"
+#include "testable/objectutils.h"
+#include "testable/testablefunctions.h"
 
 using namespace Testable;
 

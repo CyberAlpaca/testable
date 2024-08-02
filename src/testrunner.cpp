@@ -4,9 +4,9 @@
 #include <QMetaMethod>
 #include <QPointer>
 #include <QCommandLineParser>
-#include "testrunner.h"
-#include "automator.h"
-#include "priv/objectutils.h"
+#include "testable/testrunner.h"
+#include "testable/automator.h"
+#include "testable/objectutils.h"
 
 static TestRunner *m_defaultInstance = 0;
 

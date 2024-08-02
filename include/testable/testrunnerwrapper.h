@@ -3,7 +3,7 @@
 
 #include <QObject>
 #include <QVariantMap>
-#include "../testrunner.h"
+#include "testrunner.h"
 
 /// Wrapper of TestRunner for QML
 

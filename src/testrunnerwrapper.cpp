@@ -1,7 +1,7 @@
 #include <QQmlEngine>
 #include <QJSEngine>
 #include <QtQml>
-#include "testrunnerwrapper.h"
+#include "testable/testrunnerwrapper.h"
 
 class TestRunnerHookHelper : public TestRunner {
 public:

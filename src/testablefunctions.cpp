@@ -1,6 +1,6 @@
 #include <QMap>
 #include <QQuickItem>
-#include "testablefunctions.h"
+#include "testable/testablefunctions.h"
 
 bool Testable::inherited(QObject *object, const QString &className)
 {

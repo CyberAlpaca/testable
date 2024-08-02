@@ -5,9 +5,9 @@
 #include <QTime>
 #include <QTest>
 #include <QSignalSpy>
-#include "automator.h"
-#include "priv/objectutils.h"
-#include "testablefunctions.h"
+#include "testable/automator.h"
+#include "testable/objectutils.h"
+#include "testable/testablefunctions.h"
 
 using namespace Testable;
 

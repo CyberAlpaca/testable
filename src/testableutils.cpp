@@ -2,8 +2,8 @@
 #include <QTimer>
 #include <QtQml>
 #include <QTest>
-#include "testableutils.h"
-#include "objectutils.h"
+#include "testable/testableutils.h"
+#include "testable/objectutils.h"
 
 using namespace Testable;
 
